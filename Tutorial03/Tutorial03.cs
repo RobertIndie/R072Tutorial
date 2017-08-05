@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 方法
+/// 静态方法、方法重载
+/// </summary>
 namespace Tutorial03
 {
     class Tutorial03
