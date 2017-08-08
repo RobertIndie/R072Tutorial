@@ -5,6 +5,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// <summary>
+/// 绘图演示
+/// GC演示
+/// </summary>
 namespace Test01
 {
     static class Program

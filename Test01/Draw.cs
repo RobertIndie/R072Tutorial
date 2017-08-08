@@ -31,10 +31,11 @@ namespace Test01
                     //bmp.SetPixel(i, j, Color.FromArgb(i, j, i * j));
                     //bmp.SetPixel(i, j, Color.FromArgb(i, j, i / (j==0?1:j)));
                     //bmp.SetPixel(i, j, Color.FromArgb(i,i,i));
-                    //bmp.SetPixel(i, j, Color.FromArgb(i+Random.Next(), i + Random.Next(), i + Random.Next()));
+                    bmp.SetPixel(i, j, Color.FromArgb(i+Random.Next(), i + Random.Next(), i + Random.Next()));
                 }
             }
             #endregion
+            return;
             #region 正经画图
             //定义个正方形
             Rect rect;
